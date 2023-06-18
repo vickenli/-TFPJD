@@ -50,7 +50,7 @@ jobs:
         git add ./sub
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
-        git pull#--set-upstream my master 拉取最新合并列表
+        git pull
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
