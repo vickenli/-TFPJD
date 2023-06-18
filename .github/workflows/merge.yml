@@ -50,7 +50,7 @@ jobs:
         git add ./sub
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
-        sh master/run.sh
+      
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
