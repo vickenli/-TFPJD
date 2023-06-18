@@ -19,7 +19,7 @@ sh run.sh
 已删除
 
 ## 所有节点
-合并节点总数: `1451` 单一IP地址限制1个节点
+合并节点总数: `1456` 单一IP地址限制1个节点
 
 ## 节点来源
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `94`
@@ -40,7 +40,7 @@ sh run.sh
 - [GreenFishStudio/GreenFish](https://github.com/GreenFishStudio/GreenFish), 节点数量: `56`
 - [changfengoss](https://github.com/ronghuaxueleng/get_v2), 节点数量: `12`
 - [anaer/Sub](https://github.com/anaer/Sub), 节点数量: `180`
-- [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `35`
+- [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), 节点数量: `28`
 - [moneyfly1/sublist](https://github.com/moneyfly1/sublist), 节点数量: `11`
 - [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), 节点数量: `18`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), 节点数量: `50`
