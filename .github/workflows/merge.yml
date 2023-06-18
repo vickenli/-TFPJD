@@ -49,15 +49,12 @@ jobs:
         git add ./sub
         git add README.md
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
+        pip install geoip2
+        git pull # --set-upstream my master 拉取最新合并列表
+        sh run.sh
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
         branch: master
-         - name: Install dependencies
-      run: |
-        pip install geoip2
-        git pull
-    - name: Run script
-      run: sh run.sh
        
 
