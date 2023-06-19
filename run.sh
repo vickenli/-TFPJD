@@ -1,5 +1,5 @@
 # bash run.sh
-git init my
+
 git config --global core.depth 16
 git pull # --set-upstream my master
 source /opt/anaconda3/etc/profile.d/conda.sh
@@ -12,4 +12,4 @@ echo "clash yaml gen done !"
 git remote add origin https://github.com/vickenli/-TFPJD/blob/master/my.yaml
 git commit -a -m 'update'
 git push my HEAD:master
-git push origin master
+
