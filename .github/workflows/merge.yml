@@ -45,6 +45,7 @@ jobs:
     - name: 提交更改
       run: |            
         chmod 777 my.yaml
+        chmod 777 run.sh
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin master
@@ -52,6 +53,7 @@ jobs:
         git add README.md
         git add run.sh
         git add ./my/my.yaml
+        git add .
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
         git pull
         git init my
