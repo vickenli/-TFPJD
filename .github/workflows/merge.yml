@@ -51,7 +51,7 @@ jobs:
         git add ./sub
         git add README.md
         git add run.sh
-        git add my.yaml
+        git add ./my/my.yaml
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
         git pull
         sh run.sh
