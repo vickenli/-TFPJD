@@ -8,5 +8,6 @@ echo "lite speed test start !"
 echo "lite speed test done !"
 python ./utils/dummy_convert.py
 echo "clash yaml gen done !"
+git remote add origin
 git commit -a -m 'update'
 git push my HEAD:master
