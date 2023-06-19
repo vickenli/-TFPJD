@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 59980
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 7460
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 19 Jun 2023 08:49:29 GMT
+Etag: "79a90113a091d9a8245304496a815858-ssl"
+Server: Netlify
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Nf-Request-Id: 01H39DGJ2Q0Z3M8BBX8R7YN1BM
+
