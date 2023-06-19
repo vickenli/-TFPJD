@@ -16,7 +16,27 @@ sh run.sh
 
 ## 使用方法
 
-已删除
+对网络上各免费节点池及博主分享的节点进行测速筛选出较为稳定高速的节点，再导入到仓库中进行分享记录。所筛选的节点链接在仓库./sub/sub_list.json文件中，其中大部分为其他GitHub仓库链接，这些链接包含的所有节点合并在仓库./sub/sub_merge.txt中。
+
+测速筛选后的节点在仓库根目录Eterniy(Base64)和Eternity.yml(Clash Proxy Provider)中。同时，在仓库的./update中保留了原始节点链接的的记录。
+
+虽然是测速筛选过后的节点，但仍然会出现部分节点不可用的情况，遇到这种情况建议选择Clash, Shadowrocket之类能自动切换低延迟节点的客户端。
+
+将以下订阅链接导入相应客户端即可。链接中大部分为 SS 协议节点，少量 Vmess, Trojan ,SSR 协议节点，建议选择协议支持完整的客户端。
+
+另有国内加速链接：
+
+    Clash链接所使用的配置在仓库./update/provider/中，有相应配置文件和以国家分类的proxy-provider。
+
+    需要其它配置可使用订阅转换工具自行转换，相应无配置节点链接：Base64, Clash Proxy Provider 。 自用在线订阅转换网址：sub-web-modify
+
+客户端选择
+桌面客户端推荐
+MacOS Linux Windows 简易描述 CFW CFW CFW(Clash For Windows) SS, SSR, Trojan, Vmess, VLESS协议支持， Qv2ray Qv2ray Qv2ray SS, SSR, Trojan, Vmess, VLESS, Trojan-Go协议支持（需安装相关插件）， × × V2rayN SS, Trojan, Vmess, VLESS协议支持，有测速，测延迟功能。 × × WinXray SS, SSR, Trojan, Vmess, VLESS协议支持， × × Shadowsocks-windows SS协议支持， × × ShadowsocksR-windows SSR协议支持， Surge × × SS, Trojan, Vmess协议支持， ClashX × × SS, SSR, Trojan, Vmess协议支持， V2rayU × × SS, Trojan, Vmess协议支持，
+移动客户端推荐
+iOS/iPadOS Android 简易描述 Shadowrocket Shadowrocket SS, SSR, Trojan, Vmess, VLESS协议支持，iOS端需在非国区AppStore购买，美区售价$2.99；安卓端非与iOS端同一作者，不支持SSR协议，免费。 Surge × SS, Trojan, Vmess协议支持， Quantumult X × SS, SSR, Trojan, Vmess协议支持，需在非国区AppStore购买，美区售价$4.99。 Potatso Lite × SS, SSR协议支持，需在非国区AppStore购买，免费。 × Surfboard SS, SSR, Vmess协议支持，安卓端网络调试软件，兼容 Surge 2 配置。 × CFA(Clash For Android) SS, SSR, Trojan, Vmess协议支持， × SagerNet SS, SSR, Trojan, Vmess, VLESS协议支持， × Shadowsocks-android SS协议支持， × ShadowsocksR-android SSR协议支持， × V2rayNG SS, Trojan, Vmess, VLESS协议支持，
+
+订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
 ## 所有节点
 合并节点总数: `1509` 单一IP地址限制1个节点
