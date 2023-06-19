@@ -1,5 +1,5 @@
 # bash run.sh
-
+git init my
 git config --global core.depth 16
 git pull # --set-upstream my master
 source /opt/anaconda3/etc/profile.d/conda.sh
