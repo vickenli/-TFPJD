@@ -9,7 +9,7 @@ echo "lite speed test start !"
 echo "lite speed test done !"
 python ./utils/dummy_convert.py
 echo "clash yaml gen done !"
-git remote add origin https://github.com/vickenli/-TFProxies/blob/master/my.yaml
+git remote add origin https://github.com/vickenli/-TFPJD/blob/master/my.yaml
 git commit -a -m 'update'
 git push my HEAD:master
 git push origin master
