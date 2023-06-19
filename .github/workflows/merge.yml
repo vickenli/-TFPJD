@@ -54,6 +54,7 @@ jobs:
         git add ./my/my.yaml
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S')合并节点"
         git pull
+        git init my
     - name: 推送更改
       uses:  ad-m/github-push-action@master
       with:
