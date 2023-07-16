@@ -62,5 +62,18 @@ jobs:
       uses:  ad-m/github-push-action@master
       with:
         branch: master
+        - name: 发邮件
+      uses: actions/email@v1
+      with:
+        to: 715432021@qq.com
+        subject: GitHub Action completed
+        body: |
+          The GitHub Action has completed successfully.
+
+          The following files were generated:
+
+          * TFPJD/sub/sub_merge_yaml.yaml
+        attachments:
+        - path: TFPJD/sub/sub_merge_yaml.yaml
        
 
