@@ -39,7 +39,7 @@ iOS/iPadOS Android 简易描述 Shadowrocket Shadowrocket SS, SSR, Trojan, Vmess
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
 ## 所有节点
-合并节点总数: `1682` 单一IP地址限制1个节点
+合并节点总数: `1685` 单一IP地址限制1个节点
 
 ## 节点来源
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `142`
