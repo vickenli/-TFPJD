@@ -42,7 +42,7 @@ iOS/iPadOS Android 简易描述 Shadowrocket Shadowrocket SS, SSR, Trojan, Vmess
 合并节点总数: `1650` 单一IP地址限制1个节点
 
 ## 节点来源
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `97`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), 节点数量: `150`
 - [chfchf0306/clash](https://github.com/chfchf0306/clash), 节点数量: `448`
 - [xiyaowong/freeFQ](https://github.com/xiyaowong/freeFQ), 节点数量: `156`
 - [freefq/free](https://github.com/freefq/free), 节点数量: `28`
