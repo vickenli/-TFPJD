@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 47559
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "e5d4ffe37b844b0bf70a4ac34d6f4f8cd0ff78eb6f0a004738a7338849286243"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DF1C:7691:414F23:4FB288:650DD87A
+Accept-Ranges: bytes
+Date: Fri, 22 Sep 2023 18:15:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-dfw-kdfw8210128-DFW
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1695406534.521533,VS0,VE37
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 433bb8a5c5fdf614e8fb00c5dd3b4a5cc466114d
+Expires: Fri, 22 Sep 2023 18:20:33 GMT
+Source-Age: 0
+
